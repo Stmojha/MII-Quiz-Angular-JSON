@@ -1,0 +1,310 @@
+[
+    {
+        "questionId":1,
+        "question":"What is full-form of MII?",
+        "options":[
+            {
+                "answer":"Manufacturing Integration and Intelligence",
+                "isCorrect":false
+            },
+            {
+                "answer":"Manufacturing Intelligence and Integration",
+                "isCorrect":false
+            },
+            {
+                "answer":"Manufacturing Intelligence, Integration, and Analytics",
+                "isCorrect":true
+            },
+            {
+                "answer":"Manufacturing Intelligence, Integration, and Administration",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "questionId":2,
+        "question":"What is the full-form of Idoc?",
+        "options":[
+            {
+                "answer":"Intermediatory Document",
+                "isCorrect":true
+            },
+            {
+                "answer":"Immediate Document",
+                "isCorrect":false
+            },
+            {
+                "answer":"Intermediatory Document and Official Chart",
+                "isCorrect":false
+            },
+            {
+                "answer":"Intermediatory Document and Official Changelogs",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "questionId":3,
+        "question":"What is the full-form of MDO?",
+        "options":[
+            {
+                "answer":"Master Distribution Object",
+                "isCorrect":false
+            },
+            {
+                "answer":"Manufacturing Data Object",
+                "isCorrect":false
+            },
+            {
+                "answer":"Master Distribution Observation",
+                "isCorrect":false
+            },
+            {
+                "answer":"Master Data Object",
+                "isCorrect":true
+            }
+        ]
+    },
+    {
+        "questionId": 4,
+        "question": "Which module in SAP MII is used for developing composite applications?",
+        "options": [
+          {
+            "answer": "Manufacturing Integration",
+            "isCorrect": false
+          },
+          {
+            "answer": "Business Logic Services",
+            "isCorrect": true
+          },
+          {
+            "answer": "Message Services",
+            "isCorrect": false
+          },
+          {
+            "answer": "Web Services",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "question": "What is the purpose of the SAP MII DataServer?",
+        "options": [
+          {
+            "answer": "To store manufacturing data",
+            "isCorrect": false
+          },
+          {
+            "answer": "To retrieve data from various sources",
+            "isCorrect": true
+          },
+          {
+            "answer": "To manage user authentication",
+            "isCorrect": false
+          },
+          {
+            "answer": "To schedule production jobs",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "question": "In SAP MII, what is the purpose of the Message Services module?",
+        "options": [
+          {
+            "answer": "To manage user messages",
+            "isCorrect": false
+          },
+          {
+            "answer": "To handle real-time messaging between systems",
+            "isCorrect": true
+          },
+          {
+            "answer": "To send emails to production teams",
+            "isCorrect": false
+          },
+          {
+            "answer": "To store log messages for auditing",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "question": "What is the purpose of the SAP MII Visualization Services module?",
+        "options": [
+          {
+            "answer": "To create graphical representations of manufacturing data",
+            "isCorrect": true
+          },
+          {
+            "answer": "To manage user permissions",
+            "isCorrect": false
+          },
+          {
+            "answer": "To perform complex calculations",
+            "isCorrect": false
+          },
+          {
+            "answer": "To automate manufacturing processes",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "question": "Which SAP MII module is responsible for managing plant floor equipment integration?",
+        "options": [
+          {
+            "answer": "Manufacturing Integration",
+            "isCorrect": false
+          },
+          {
+            "answer": "Plant Connectivity",
+            "isCorrect": true
+          },
+          {
+            "answer": "Business Logic Services",
+            "isCorrect": false
+          },
+          {
+            "answer": "DataServer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "question": "In SAP MII, what is a Transaction?",
+        "options": [
+          {
+            "answer": "A database table",
+            "isCorrect": false
+          },
+          {
+            "answer": "A sequence of operations executed as a single unit",
+            "isCorrect": true
+          },
+          {
+            "answer": "A manufacturing report",
+            "isCorrect": false
+          },
+          {
+            "answer": "A user interface element",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "question": "What does the SAP MII Query template allow you to do?",
+        "options": [
+          {
+            "answer": "Design graphical dashboards",
+            "isCorrect": false
+          },
+          {
+            "answer": "Retrieve and manipulate data from databases",
+            "isCorrect": true
+          },
+          {
+            "answer": "Define manufacturing workflows",
+            "isCorrect": false
+          },
+          {
+            "answer": "Monitor real-time production events",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "question": "What is the purpose of the SAP MII KPI Framework?",
+        "options": [
+          {
+            "answer": "To manage user authentication",
+            "isCorrect": false
+          },
+          {
+            "answer": "To define and monitor key performance indicators",
+            "isCorrect": true
+          },
+          {
+            "answer": "To schedule production jobs",
+            "isCorrect": false
+          },
+          {
+            "answer": "To create interactive forms",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "question": "Which SAP MII module is used for managing user interfaces and workflows?",
+        "options": [
+          {
+            "answer": "Business Logic Services",
+            "isCorrect": false
+          },
+          {
+            "answer": "Message Services",
+            "isCorrect": false
+          },
+          {
+            "answer": "Visualization Services",
+            "isCorrect": false
+          },
+          {
+            "answer": "Web Services",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "question": "In SAP MII, what is the purpose of the DataServer Query template?",
+        "options": [
+          {
+            "answer": "To create graphical reports",
+            "isCorrect": false
+          },
+          {
+            "answer": "To retrieve and manipulate data from external sources",
+            "isCorrect": true
+          },
+          {
+            "answer": "To define manufacturing workflows",
+            "isCorrect": false
+          },
+          {
+            "answer": "To manage user permissions",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "question": "In SAP MII, what is the purpose of the DataServer Message Query template?",
+        "options": [
+          {
+            "answer": "To send emails to production teams",
+            "isCorrect": false
+          },
+          {
+            "answer": "To handle real-time messaging between systems",
+            "isCorrect": true
+          },
+          {
+            "answer": "To create graphical dashboards",
+            "isCorrect": false
+          },
+          {
+            "answer": "To manage user messages",
+            "isCorrect": false
+          }
+        ]
+      }
+]

@@ -1,0 +1,60 @@
+<div class="wrapper">
+    <div *ngIf="showStartDiv" id="StartDiv">
+        <button type="button" id="StartQ"  (click)="moveToInstrDiv()">Start Quiz</button>
+    </div>
+    <div *ngIf="showInstrDiv" id="InstrDiv">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-title">Some Rules of this Quiz</div>
+                <!-- <div class="card-subtitle"></div> -->
+                <div class="card-text">
+                    <ol type="1">
+                        <li>You will have only <span id="blueText"><strong>15 seconds</strong></span> per question.</li>
+                        <li>Once you select your answer, it can't be undone.</li>
+                        <li>You can't select any option once the time goes off.</li>
+                        <li>You can't exit from the quiz once started.</li>
+                    </ol>
+                </div>
+                <div class="buttons">
+                    <input type="button" id="ExitButton" (click)="exitInstr()" class="btn btn-outline-primary" value="Exit Quiz"/>
+                    <input type="button" class="btn btn-primary" id="ContinueButton" (click)="showQueFunc()" value="Continue">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="card" *ngIf="showQuestions">
+            <div class="card-body">
+                <div class="card-title" class="wrapperQueTitle" id="QuestionsCard">MII Quiz Application<div id="RemTime">Time Off  <span id="time-left">{{remTime}}</span></div></div>
+                <div class="card-text">
+                    <span class="QuestionText">{{currentQuestionNumber+1}}. {{questionsList[currentQuestionNumber].question}}</span>
+                    <div class="option_list">
+                        <div class="option" [ngClass]="{'disabled':isOptionSelected(questionsList[currentQuestionNumber].options),'correct':option.isSelected && option.isCorrect,
+                    'incorrect':option.isSelected && !option.isCorrect}" (click)="selectOption(option)" *ngFor="let option of questionsList[currentQuestionNumber].options">
+                            <span>{{option.answer}}</span></div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="span-ele">
+                        <span id="QueNo">{{currentQuestionNumber+1}}</span> of <span id="QueNo">{{questionsList.length}} </span>Questions
+                    </div>
+                    <div class="btn-next-question">
+                        <input class="btn btn-primary" type="button" id="nextQue" (click)="IncQueNo()" [value]="nextQueButtonText"/></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" *ngIf="isQuizEnded">
+        <div class="card-body">
+            <div class="card-title">You've completed the quiz</div>
+                <div class="scored">
+                    <span id="ResText">Congrats! 🎉, You've got <p class="text-success">{{correctAnswerCount}}</p> out of <p class="text-info">{{questionsList.length}}.</p></span>
+                </div>
+            <div class="card-footer">
+                <input class="btn btn-primary" type="button" (click)="restartInstr()" value="Replay Quiz"/>
+                <input class="btn btn-outline-primary" (click)="restartFull()" type="button" value="Quit Quiz"/>
+            </div>
+        </div>
+    </div>
+</div>

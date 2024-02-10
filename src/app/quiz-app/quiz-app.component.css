@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#StartQ{
+    padding: .75em 1em;
+    background-color: white;
+    color: blue;
+    font-family: 'Audiowide', Courier, monospace;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    width:auto;
+}
+#StartQ:active{
+    transform: scale(0.98);
+    box-shadow: 0.5px 0.5px 5px black;
+}
+
+.card-body{
+    padding: 2.5vh;
+    box-shadow: 2px 2px 5px black;
+}
+.card-title{
+    /* font-family: 'Audiowide',Courier,monospace; */
+    font-size:x-large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    color: blue;
+}
+.card-text{
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 1vh;
+    padding: 13px 13px;
+    gap:5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:8px;
+}
+#blueText{
+color: blue;
+}
+.wrapperQueTitle{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size:x-large;
+font-weight: bold;
+border-bottom: 2.5px solid rgb(38, 38, 212);
+padding-bottom: 13px;
+}
+#QuestionsCard{
+    color: black;
+}
+#RemTime{
+background-color: lightskyblue;
+color: blue;
+border-radius: 6px;
+padding-right: 12px;
+justify-content: space-between;
+margin-right: 10px;
+padding-left: 10px;
+font-weight: normal;
+}
+#time-left{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    border-radius: 6px;
+    /* display: flex;
+    flex-direction: row;
+    align-self:flex-start;
+    justify-self:left */
+    /* min-width: 100px;
+    text-align: center; */
+}
+.QuestionText{
+    font-weight: bold;
+    font-size: x-large;
+    padding: 13px 0 13px 0;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .option_list .option{
+        background: aliceblue;
+        border: 1px solid #84c5fe;
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-size: 17px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.option_list .option:last-child{
+    margin-bottom: 0px;
+}
+.option_list .option:hover{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+}
+.option_list .option.correct{
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+.option_list .option.incorrect{
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+.option_list .option.disabled{
+    pointer-events: none;
+}
+.option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.option_list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+.option_list .option .icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+.card-body .scored{
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    color: #721c24;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
